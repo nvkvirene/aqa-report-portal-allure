@@ -29,7 +29,7 @@ class DeliveryTest {
 
     @AfterAll
     static void tearDownAll() {
-        SelenideLogger.removeListener("allure");
+        SelenideLogger.removeListener("AllureSelenide");
     }
 
     @BeforeEach
